@@ -21,6 +21,7 @@ def main():
     os.makedirs("logs", exist_ok=True)
     os.makedirs("assets/icons", exist_ok=True)
     os.makedirs("backups", exist_ok=True)
+    os.makedirs("config", exist_ok=True)
     
     # تشغيل التطبيق
     app = QApplication(sys.argv)

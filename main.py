@@ -1,4 +1,4 @@
-k#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 DeviceForge Pro v2.1 - أداة متقدمة لصيانة الأجهزة المحمولة
 """
@@ -6,7 +6,7 @@ import sys
 import os
 from PyQt5.QtWidgets import QApplication, QSplashScreen
 from PyQt5.QtCore import Qt, QTimer
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtGui import QPixmap, QColor
 from core.logger import Logger
 from core.plugin_loader import PluginLoader
 from core.updater import Updater
@@ -22,6 +22,9 @@ def main():
     os.makedirs("backups", exist_ok=True)
     os.makedirs("plugins", exist_ok=True)
     os.makedirs("config", exist_ok=True)
+    os.makedirs("payload/firehose", exist_ok=True)
+    os.makedirs("payload/mtk_preloader", exist_ok=True)
+    os.makedirs("payload/scripts", exist_ok=True)
     
     # تهيئة التطبيق
     app = QApplication(sys.argv)
@@ -30,7 +33,7 @@ def main():
     
     # شاشة الترحيب
     splash_pixmap = QPixmap(400, 300)
-    splash_pixmap.fill(Qt.darkGray)
+    splash_pixmap.fill(QColor(30, 30, 30))
     splash = QSplashScreen(splash_pixmap, Qt.WindowStaysOnTopHint)
     splash.show()
     splash.showMessage("🚀 جاري تحميل DeviceForge Pro...", Qt.AlignCenter, Qt.white)
@@ -38,13 +41,21 @@ def main():
     
     # تحميل الإضافات
     splash.showMessage("📦 تحميل الإضافات...", Qt.AlignCenter, Qt.white)
-    plugin_loader = PluginLoader()
-    plugins = plugin_loader.load_plugins()
+    try:
+        plugin_loader = PluginLoader()
+        plugins = plugin_loader.load_plugins()
+        logger.info(f"تم تحميل {len(plugins)} إضافة")
+    except Exception as e:
+        logger.error(f"خطأ في تحميل الإضافات: {e}")
     
     # التحقق من التحديثات (في الخلفية)
     splash.showMessage("🔄 التحقق من التحديثات...", Qt.AlignCenter, Qt.white)
-    updater = Updater()
-    update_info = updater.check_for_updates()
+    try:
+        updater = Updater()
+        update_info = updater.check_for_updates()
+    except Exception as e:
+        logger.error(f"خطأ في التحقق من التحديثات: {e}")
+        update_info = {'available': False}
     
     # فتح النافذة الرئيسية
     from ui.main_window import MainWindow
@@ -79,7 +90,6 @@ def show_update_notification(window, update_info):
     )
     
     if reply == QMessageBox.Yes:
-        # بدء تحميل التحديث
         QMessageBox.information(
             window,
             "تحميل التحديث",
