@@ -1,11 +1,3 @@
-# nano ui/widgets/backup_panel.py
-
-"""
-DeviceForge Pro — Backup Panel Widget
-Professional device backup/restore management with protocol-aware support.
-Handles full, partial, encrypted, and differential backups across all supported device protocols.
-"""
-
 import os
 import json
 import time
