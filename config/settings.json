@@ -1,0 +1,14 @@
+{
+    "app_name": "DeviceForge Pro",
+    "version": "1.0.0",
+    "language": "en",
+    "theme": "dark",
+    "adb_path": "tools/adb.exe",
+    "fastboot_path": "tools/fastboot.exe",
+    "plugin_dir": "plugins",
+    "log_dir": "logs",
+    "download_dir": "downloads",
+    "backup_dir": "backups",
+    "max_retries": 3,
+    "timeout": 30
+}
