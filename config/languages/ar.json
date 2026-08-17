@@ -1,5 +1,5 @@
 {
-    "app_title": "ديفورج برو",
+    "app_title": "ديفورج برو - منصة الصيانة المتقدمة",
     "menu_file": "ملف",
     "menu_edit": "تحرير",
     "menu_view": "عرض",
@@ -28,8 +28,6 @@
     "msg_flash_failed": "فشل التفليش. تحقق من السجل.",
     "msg_backup_success": "تم إنشاء النسخة الاحتياطية بنجاح.",
     "msg_backup_failed": "فشل إنشاء النسخة. تحقق من السجل.",
-    "msg_install_success": "تم تثبيت التطبيق بنجاح.",
-    "msg_install_failed": "فشل التثبيت. تحقق من السجل.",
     "col_name": "الاسم",
     "col_package": "الحزمة",
     "col_version": "الإصدار",
