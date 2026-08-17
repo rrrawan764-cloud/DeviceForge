@@ -36,3 +36,191 @@
 2026-08-17 07:18:16 [WARNING] Executing FRP Bypass sequence...
 2026-08-17 07:18:16 [ERROR] Operation failed: No device connected via USB.
 2026-08-17 07:18:23 [WARNING] Initiating EFS / Security partition wipe...
+2026-08-17 08:20:58 [INFO] Starting DeviceForge Pro application...
+2026-08-17 08:20:58 [INFO] Dark theme stylesheet loaded successfully.
+2026-08-17 08:20:58 [INFO] DeviceForge Pro multi-platform suite initialized successfully.
+2026-08-17 08:20:58 [INFO] DeviceForge Pro GUI is now running.
+2026-08-17 08:21:21 [INFO] Language switched to: ar
+2026-08-17 08:21:21 [INFO] DeviceForge Pro multi-platform suite initialized successfully.
+2026-08-17 08:21:32 [WARNING] Sending command to switch iOS device into Recovery Mode...
+2026-08-17 08:21:32 [INFO] Recovery response: 
+2026-08-17 08:21:35 [WARNING] Triggering device factory reset...
+2026-08-17 08:21:35 [INFO] Rebooted device to recovery for wipe.
+2026-08-17 08:21:37 [INFO] Scanning all connected platforms (Android & iOS)...
+2026-08-17 08:21:37 [INFO] Found [Apple] -> Model: iPhone (iPhone8,1) | Serial/UDID: b7687852ae434f9593aa7a8891c54593b5a98ca0 | Connection: usb-ios
+2026-08-17 08:21:39 [WARNING] Sending fastboot bootloader unlock signal...
+2026-08-17 08:21:39 [INFO] Fastboot response: 
+2026-08-17 08:21:41 [WARNING] Executing Android FRP Bypass sequence...
+2026-08-17 08:21:41 [INFO] FRP command sent to b7687852ae434f9593aa7a8891c54593b5a98ca0. Response: 
+2026-08-17 08:21:43 [INFO] Fetching connected iOS device information...
+2026-08-17 08:21:43 [INFO] iOS Device Info:
+ActivationState: Unactivated
+BasebandActivationTicketVersion: V2
+BasebandCertId: 3840149528
+BasebandChipID: 9572577
+BasebandKeyHashInformation: AKeyStatus: 2
+ SKeyHash: u+/tcCwvaQ+1Y9t40I4yegCEmB28mALlaROhaIVGBWo=
+ SKeyStatus: 0
+BasebandMasterKeyHash: 8CB15EE4C8002199070D9500BB8FB183B02713A5CA2A6B92DB5E75CE15536182
+BasebandRegionSKU: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+BasebandSerialNumber: D6NbrA==
+BasebandStatus: BBInfoAvailable
+BasebandVersion: 12.00.00
+BluetoothAddress: 98:10:e8:30:57:b4
+BoardId: 4
+BrickState: true
+BuildVersion: 19H422
+CPUArchitecture: arm64
+CarrierBundleInfoArray[0]:
+CertID: 3840149528
+ChipID: 32768
+ChipSerialNo: D6NbrA==
+DeviceClass: iPhone
+DeviceColor: #272728
+DeviceName: iPhone
+DieID: 6004543789561
+EthernetAddress: 98:10:e8:30:58:0e
+FirmwareVersion: iBoot-7459.140.15
+FusingStatus: 3
+HardwareModel: N71AP
+HardwarePlatform: s8000
+HasSiDP: true
+HostAttached: true
+InternationalMobileEquipmentIdentity: 355398085200078
+MLBSerialNumber: C7K71040Q8XH9CC21
+MobileEquipmentIdentifier: 35539808520007
+MobileSubscriberCountryCode: 
+MobileSubscriberNetworkCode: 
+ModelNumber: MN0W2
+NonVolatileRAM: auto-boot: dHJ1ZQ==
+ backlight-level: MTUxOQ==
+ backlight-nits: MHgwMGE2NTM1MQ==
+ boot-args: 
+ boot-breadcrumbs: PEJPT1Q+IDAwMDMwMDBjKDAwMDAwMDAwKSA0MDA0MDAwNSA0MDAzMDAwZSAwMDAzMDAwYyg2OTYyNjU2MykgMDAwMzAwMGQgPERPTkU+IDxDT01NSVQ+IA==
+ bootdelay: MA==
+ com.apple.System.tz0-size: MHhFMDAwMDA=
+ fm-spstatus: WUVT
+ oblit-begins: T2JsaXRUeXBlOiBPYmxpdGVyYXRlRGF0YVBhcnRpdGlvbi4gUmVhc29uOiB1bmtub3du
+ obliteration: aGFuZGxlX21lc3NhZ2U6IE9ibGl0ZXJhdGlvbiBDb21wbGV0ZQo=
+PairRecordProtectionClass: 4
+PartitionType: GUID_partition_scheme
+PasswordProtected: false
+PkHash: 5OQIGNymupBn16zMKPujMp3562XDnNFkULy+gshbERM=
+ProductName: iPhone OS
+ProductType: iPhone8,1
+ProductVersion: 15.8.8
+ProductionSOC: true
+ProtocolVersion: 2
+ProximitySensorCalibration: T00EAA0KODcQA7wCsAQ2AbwCWwACADxAOwMCAA4l3wLuAmYAgV8dAkIseB4AAAAA4QCVAAECAABhAAAAAAAAAAAAAAAAAAAA
+RegionInfo: AE/A
+SIMStatus: kCTSIMSupportSIMStatusNotInserted
+SIMTrayStatus: kCTSIMSupportSIMTrayInsertedNoSIM
+SerialNumber: FFPTC2A8HFLR
+SoftwareBehavior: gQAAAAAAAAAAAAAAAAAAAA==
+SoftwareBundleVersion: 
+SupportedDeviceFamilies[1]:
+ 0: 1
+TelephonyCapability: true
+TimeIntervalSince1970: 1786944102.984045
+TimeZone: US/Pacific
+TimeZoneOffsetFromUTC: -25200
+TrustedHostAttached: true
+UniqueChipID: 6004543789561
+UniqueDeviceID: b7687852ae434f9593aa7a8891c54593b5a98ca0
+UntrustedHostBUID: D7CF641C-5235-E828-A019-294CB388FF52
+UseRaptorCerts: true
+Uses24HourClock: false
+WiFiAddress: 98:10:e8:30:54:89
+WirelessBoardSerialNumber: B218BC534CB1
+kCTPostponementInfoPRLName: 0
+kCTPostponementStatus: kCTPostponementStatusReady
+2026-08-17 08:23:36 [WARNING] Executing Android FRP Bypass sequence...
+2026-08-17 08:23:36 [INFO] FRP command sent to b7687852ae434f9593aa7a8891c54593b5a98ca0. Response: 
+2026-08-17 08:23:39 [INFO] Scanning all connected platforms (Android & iOS)...
+2026-08-17 08:23:39 [INFO] Found [Apple] -> Model: iPhone (iPhone8,1) | Serial/UDID: b7687852ae434f9593aa7a8891c54593b5a98ca0 | Connection: usb-ios
+2026-08-17 08:23:40 [WARNING] Triggering device factory reset...
+2026-08-17 08:23:40 [INFO] Rebooted device to recovery for wipe.
+2026-08-17 08:23:42 [WARNING] Sending command to switch iOS device into Recovery Mode...
+2026-08-17 08:23:42 [INFO] Recovery response: 
+2026-08-17 08:23:45 [INFO] Fetching connected iOS device information...
+2026-08-17 08:23:45 [INFO] iOS Device Info:
+ActivationState: Unactivated
+BasebandActivationTicketVersion: V2
+BasebandCertId: 3840149528
+BasebandChipID: 9572577
+BasebandKeyHashInformation: AKeyStatus: 2
+ SKeyHash: u+/tcCwvaQ+1Y9t40I4yegCEmB28mALlaROhaIVGBWo=
+ SKeyStatus: 0
+BasebandMasterKeyHash: 8CB15EE4C8002199070D9500BB8FB183B02713A5CA2A6B92DB5E75CE15536182
+BasebandRegionSKU: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+BasebandSerialNumber: D6NbrA==
+BasebandStatus: BBInfoAvailable
+BasebandVersion: 12.00.00
+BluetoothAddress: 98:10:e8:30:57:b4
+BoardId: 4
+BrickState: true
+BuildVersion: 19H422
+CPUArchitecture: arm64
+CarrierBundleInfoArray[0]:
+CertID: 3840149528
+ChipID: 32768
+ChipSerialNo: D6NbrA==
+DeviceClass: iPhone
+DeviceColor: #272728
+DeviceName: iPhone
+DieID: 6004543789561
+EthernetAddress: 98:10:e8:30:58:0e
+FirmwareVersion: iBoot-7459.140.15
+FusingStatus: 3
+HardwareModel: N71AP
+HardwarePlatform: s8000
+HasSiDP: true
+HostAttached: true
+InternationalMobileEquipmentIdentity: 355398085200078
+MLBSerialNumber: C7K71040Q8XH9CC21
+MobileEquipmentIdentifier: 35539808520007
+MobileSubscriberCountryCode: 
+MobileSubscriberNetworkCode: 
+ModelNumber: MN0W2
+NonVolatileRAM: auto-boot: dHJ1ZQ==
+ backlight-level: MTUxOQ==
+ backlight-nits: MHgwMGE2NTM1MQ==
+ boot-args: 
+ boot-breadcrumbs: PEJPT1Q+IDAwMDMwMDBjKDAwMDAwMDAwKSA0MDA0MDAwNSA0MDAzMDAwZSAwMDAzMDAwYyg2OTYyNjU2MykgMDAwMzAwMGQgPERPTkU+IDxDT01NSVQ+IA==
+ bootdelay: MA==
+ com.apple.System.tz0-size: MHhFMDAwMDA=
+ fm-spstatus: WUVT
+ oblit-begins: T2JsaXRUeXBlOiBPYmxpdGVyYXRlRGF0YVBhcnRpdGlvbi4gUmVhc29uOiB1bmtub3du
+ obliteration: aGFuZGxlX21lc3NhZ2U6IE9ibGl0ZXJhdGlvbiBDb21wbGV0ZQo=
+PairRecordProtectionClass: 4
+PartitionType: GUID_partition_scheme
+PasswordProtected: false
+PkHash: 5OQIGNymupBn16zMKPujMp3562XDnNFkULy+gshbERM=
+ProductName: iPhone OS
+ProductType: iPhone8,1
+ProductVersion: 15.8.8
+ProductionSOC: true
+ProtocolVersion: 2
+ProximitySensorCalibration: T00EAA0KODcQA7wCsAQ2AbwCWwACADxAOwMCAA4l3wLuAmYAgV8dAkIseB4AAAAA4QCVAAECAABhAAAAAAAAAAAAAAAAAAAA
+RegionInfo: AE/A
+SIMStatus: kCTSIMSupportSIMStatusNotInserted
+SIMTrayStatus: kCTSIMSupportSIMTrayInsertedNoSIM
+SerialNumber: FFPTC2A8HFLR
+SoftwareBehavior: gQAAAAAAAAAAAAAAAAAAAA==
+SoftwareBundleVersion: 
+SupportedDeviceFamilies[1]:
+ 0: 1
+TelephonyCapability: true
+TimeIntervalSince1970: 1786944225.278363
+TimeZone: US/Pacific
+TimeZoneOffsetFromUTC: -25200
+TrustedHostAttached: true
+UniqueChipID: 6004543789561
+UniqueDeviceID: b7687852ae434f9593aa7a8891c54593b5a98ca0
+UntrustedHostBUID: D7CF641C-5235-E828-A019-294CB388FF52
+UseRaptorCerts: true
+Uses24HourClock: false
+WiFiAddress: 98:10:e8:30:54:89
+WirelessBoardSerialNumber: B218BC534CB1
+kCTPostponementInfoPRLName: 0
+kCTPostponementStatus: kCTPostponementStatusReady
