@@ -1,3 +1,4 @@
+from PyQt5.QtWidgets import QMainWindow, QTabWidget, QVBoxLayout, QWidget, QAction, QMenuBar, QMessageBox
 from ui.widgets.device_panel import DevicePanel
 from ui.widgets.flash_panel import FlashPanel
 from ui.widgets.backup_panel import BackupPanel
@@ -24,7 +25,7 @@ class MainWindow(QMainWindow):
 
         self.tabs = QTabWidget()
         
-        # Instantiate Panels (Passing config and logger properly)
+        # Instantiate Panels
         self.device_panel = DevicePanel(self.config, self.logger)
         self.flash_panel = FlashPanel(self.config)
         self.backup_panel = BackupPanel(self.config)
