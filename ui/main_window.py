@@ -1,4 +1,3 @@
-نfrom PyQt5.QtWidgets import QMainWindow, QTabWidget, QVBoxLayout, QWidget, QAction, QMenuBar, QMessageBox
 from ui.widgets.device_panel import DevicePanel
 from ui.widgets.flash_panel import FlashPanel
 from ui.widgets.backup_panel import BackupPanel
